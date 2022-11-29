@@ -53,6 +53,11 @@ nav {
   justify-content: space-between;
 }
 
+.home-text{
+  height: 24%;
+  margin: 24px;
+}
+
 .brand {
   font-size: 24px;
   color: var(--blue);
@@ -158,33 +163,8 @@ section .filter-card {
   justify-content: center;
 }
 
-.search-input {
-  width: 700px;
-  height: 50px;
-  border: none;
-  border-radius: 4px 0px 0px 4px;
-  text-indent: 10px;
-}
-
-.search-button {
-  width: 150px;
-  height: 50px;
-  border-radius: 0px 4px 4px 0px;
-  border: none;
-  background: var(--blue);
-  color: white;
-  cursor: pointer;
-  font-size: 1.1em;
-  transition: 0.2s ease;
-}
-
-.search-button:hover {
-  background: #dedede;
-  color: var(--blue);
-}
-
 .title-wrapper-catalog {
-  margin-top: 200px;
+  margin-top: 20px;
   padding-bottom: 20px;
 }
 
